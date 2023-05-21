@@ -48,3 +48,12 @@ For example, not only does WordPress power a huge number of business sites and b
     
 
     docker compose down
+    
+    
+   
+    
+    
+    
+![Screenshot from 2023-05-21 14-43-57](https://github.com/ramezshawky/wordpress-Dockerization/assets/111592105/138c3888-ff3f-40e3-90d6-d3accc523942)
+![346098590_1002211507822867_6333355390699899816_n](https://github.com/ramezshawky/wordpress-Dockerization/assets/111592105/8b1a5124-e063-492c-83ea-ef79701e2b9c)
+![346102073_198670199709462_4964784615640189681_n](https://github.com/ramezshawky/wordpress-Dockerization/assets/111592105/7dad745f-e558-4b0d-890a-3266ad887879)
