@@ -42,6 +42,16 @@ For example, not only does WordPress power a huge number of business sites and b
     docker compose up -d 
     
     
+  <ul>
+  <li>After that, go to your browser and search on </li>
+</ul>  
+    
+    
+     localhost:8000
+    
+    
+    
+    
 <ul>
   <li>To compose down </li>
 </ul>
