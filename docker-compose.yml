@@ -18,14 +18,22 @@ services:
     image: wordpress:latest
     restart: always
     ports:
-      - "8000:80"
+      - "8005:80"
     environment:
       WORDPRESS_DB_HOST: mysql_database:3306
       WORDPRESS_DB_USER: wp_user
       WORDPRESS_DB_PASSWORD: 1234
       WORDPRESS_DB_NAME: wp_db 
     volumes:
-      ["./:/var/www/html"]
+      ["./:/var/www/html"] 
+  # phpmyadmin
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - 8002:80
+    environment:
+      - PMA_HOST:mysql_database
+      - PMA_PORT:3306
 #Top level volumes 
 volumes:
   mysql: {}
